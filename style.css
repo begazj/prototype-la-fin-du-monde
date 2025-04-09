@@ -1,0 +1,34 @@
+ body {
+        color: #222222;
+      }
+      h1 {
+        margin-left: 50px;
+      }
+      p {
+        padding-right: 400px;
+        margin-left: 50px;
+      }
+      ul {
+        margin-left: 50px;
+      }
+      li {
+        list-style: none;
+      }
+      footer {
+        margin-left: 50px;
+      }
+      .met-banner {
+        background-color: #e4012b;
+        padding: 15px;
+        margin: 0px;
+      }
+      .met-logo {
+        color: white;
+        padding: 15px;
+        margin-left: 25px;
+      }
+      .breadcrumbs {
+        color: #222222;
+        padding-top: 20px;
+        margin-left: 50px;
+      }
