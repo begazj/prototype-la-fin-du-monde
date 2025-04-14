@@ -3,17 +3,24 @@ body {
   color: #222222;
   margin-left: 50px;
 }
-
+h1 {
+  margin-left: 50px;
+}
 p {
   padding-right: 400px;
+  margin-left: 50px;
 }
-
+ul {
+  margin-left: 50px;
+}
 li {
   list-style: none;
   padding: 10px;
   border-bottom: #222222;
 }
-
+footer {
+  margin-left: 50px;
+}
 .met-banner {
   background-color: #e4012b;
   padding: 15px;
