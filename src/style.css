@@ -3,22 +3,25 @@ body {
   color: #222222;
 }
 h1 {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 p {
   padding-right: 400px;
-  margin-left: 50px;
+  margin-left: 20px;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px;
 }
 hr {
   opacity: 50%;
 }
 ul {
-  margin-left: 50px;
   margin-right: 50px;
 }
 li {
   list-style: none;
-  padding: 10px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -36,10 +39,7 @@ li {
   color: #222222;
   padding-top: 20px;
   margin-left: 50px;
-}
-.grid {
-  display: grid;
-  grid: 2fr 2fr;
+  padding-bottom: 30px;
 }
 .met-footer {
   margin-left: 50px;
@@ -47,4 +47,8 @@ li {
 }
 .met-title {
   font-weight: bold;
+}
+.additional-resources {
+  padding: 50px;
+  display: grid;
 }
