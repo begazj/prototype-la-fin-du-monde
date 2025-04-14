@@ -23,59 +23,83 @@
       Home / Research Centers / Leonard A. Lauder Research Center / Research
       Resources / Digitized Objects / <strong>La Fin Du Monde</strong>
     </div>
-    <h1>La Fin Du Monde</h1>
-    <div>
-      <p class="intro-paragraph">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo.
-      </p>
-    </div>
-    <div class="viewport">
-      <div id="tify" style="height: 640px"></div>
+    <div class="container">
+      <h1>La Fin Du Monde</h1>
+      <div>
+        <p class="intro-paragraph">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo.
+        </p>
+      </div>
+      <div class="viewport">
+        <div id="tify" style="height: 640px"></div>
 
-      <script>
-        new Tify({
-          container: "#tify",
-          manifestUrl:
-            "https://cdm16028.contentdm.oclc.org/iiif/p16028coll7:23814/manifest.json",
-          pages: [46],
-          viewer: {
-            autoHideControls: true,
-          },
-        });
-      </script>
-    </div>
-    <div>
-      <ul>
-        <li><h2>User Guide</h2></li>
+        <script>
+          new Tify({
+            container: "#tify",
+            manifestUrl:
+              "https://cdm16028.contentdm.oclc.org/iiif/p16028coll7:23814/manifest.json",
+            pages: [46],
+            viewer: {
+              autoHideControls: true,
+            },
+          });
+        </script>
+      </div>
+      <div>
+        <section>
+          <ul>
+            <li><h2>User Guide</h2></li>
 
-        <li><h2>Paris Maquette</h2></li>
+            <li><h2>Paris Maquette</h2></li>
 
-        <li><h2>NY Maquette</h2></li>
-        <li><h2>Synopsis</h2></li>
-        <li><h2>Credits</h2></li>
-      </ul>
+            <li><h2>NY Maquette</h2></li>
+            <li><h2>Synopsis</h2></li>
+            <li><h2>Credits</h2></li>
+          </ul>
+        </section>
+      </div>
+      <div>
+        <section>
+          <div>
+            <h4>Essay by Christopher Green</h4>
+          </div>
+          <div>
+            <h4>Essay by Lauren Rosati</h4>
+          </div>
+          <div>
+            <h4>Essay by Caroline Levitt</h4>
+          </div>
+          <div>
+            <h4>Videos</h4>
+          </div>
+        </section>
+      </div>
     </div>
     <footer>
-      <div class="address-the-met">
-        <div>The Met Fifth Avenue</div>
-        <div>1000 Fifth Avenue</div>
-        <div>New York, NY 10028</div>
-        <div>Phone: 212-535-7710</div>
+      <div class="met-footer">
+        <div class="address-the-met">
+          <div>The Met Fifth Avenue</div>
+          <div>1000 Fifth Avenue</div>
+          <div>New York, NY 10028</div>
+          <div>Phone: 212-535-7710</div>
+        </div>
+        <div class="address-cloisters">
+          <div>The Met Cloisters</div>
+          <div>99 Margaret Corbin Drive</div>
+          <div>Fort Tryon Park</div>
+          <div>New York, NY 10040</div>
+          <div>Phone:212-923-3700</div>
+        </div>
       </div>
-      <div class="address-cloisters">
-        <div>The Met Cloisters</div>
-        <div>99 Margaret Corbin Drive</div>
-        <div>Fort Tryon Park</div>
-        <div>New York, NY 10040</div>
-        <div>Phone:212-923-3700</div>
+      <div>
+        This code is
+        <a href="https://github.com/begazj/prototype-la-fin-du-monde.git"
+          >open-sourced</a
+        >
       </div>
-      This code is
-      <a href="https://github.com/begazj/prototype-la-fin-du-monde.git"
-        >open-sourced</a
-      >
     </footer>
     <script src="src/app.js"></script>
   </body>
