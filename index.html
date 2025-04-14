@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Fin Du Monde</title>
     <link rel="stylesheet" href="src/style.css" />
-    
+
+    <script src="/screens/TIFY/tify.js?v0.31.0"></script>
+    <link rel="stylesheet" href="/screens/TIFY/tify.css?v0.31.0" />
   </head>
   <body>
     <div class="met-banner">
@@ -24,7 +26,21 @@
         explicabo.
       </p>
     </div>
+    <div>
+      <div id="tify" style="height: 640px"></div>
 
+      <script>
+            new Tify(
+
+            {   container: '#tify',
+            manifestUrl: 'https://cdm16028.contentdm.oclc.org/iiif/p16028coll7:23814/manifest.json’,
+            pages: [46],
+            viewer: {
+                autoHideControls: true,
+        },
+            })
+      </script>
+    </div>
     <div>
       <ul>
         <li>User Guide</li>
