@@ -52,6 +52,12 @@ li {
   font-weight: bold;
 }
 .grid-4-columns {
-  padding: 50px;
+  padding: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 60px;
+  margin-left: 5px;
+}
+.section-title {
+  margin: auto;
+  margin-left: 10px;
 }
