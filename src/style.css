@@ -47,17 +47,19 @@ li {
 .met-footer {
   margin-left: 50px;
   border-top: 1px solid #e5e5e5;
+  padding-top: 30px;
 }
 .met-title {
   font-weight: bold;
 }
+
 .grid-4-columns {
   padding: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 60px;
-  margin-left: 5px;
+  margin-left: 35px;
 }
 .section-title {
   margin: auto;
-  margin-left: 10px;
+  margin-left: 40px;
 }
