@@ -24,6 +24,9 @@ li {
   list-style: none;
   border-bottom: 1px solid #e5e5e5;
 }
+footer {
+  border-top: 1px solid #e5e5e5;
+}
 
 .met-banner {
   background-color: #e4012b;
@@ -45,9 +48,8 @@ li {
   display: grid;
 }
 .met-footer {
-  margin-left: 50px;
-  border-top: 1px solid #e5e5e5;
-  padding-top: 30px;
+  margin-left: 30px;
+  padding-top: 90px;
 }
 .met-title {
   font-weight: bold;
