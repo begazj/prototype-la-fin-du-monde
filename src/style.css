@@ -55,14 +55,6 @@ footer {
 .met-title {
   font-weight: bold;
 }
-
-.grid-4-columns {
-  padding: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 60px;
-  margin-left: 35px;
-  max-width: 1200px;
-}
 .section-title {
   margin: auto;
   margin-left: 40px;
