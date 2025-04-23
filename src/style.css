@@ -46,9 +46,13 @@ footer {
 .topic-link-text {
   text-align: center;
 }
-.topic-link-text {
+.topic-link-text p {
+  margin: 0 auto;
+  max-width: 800px;
   height: 350px;
   overflow-y: auto;
+  -webkit-mask-image: linear-gradient(black, rgba(0, 0, 0, 0.6));
+  mask-image: linear-gradient(black, rgba(0, 0, 0, 0.6));
 }
 .grid {
   display: grid;
