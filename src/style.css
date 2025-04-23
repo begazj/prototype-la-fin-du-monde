@@ -46,6 +46,10 @@ footer {
 .topic-link-text {
   text-align: center;
 }
+.topic-link-text {
+  height: 350px;
+  overflow-y: auto;
+}
 .grid {
   display: grid;
 }
