@@ -46,7 +46,7 @@ footer {
 .topic-link-text {
   text-align: center;
 }
-.topic-link-text p {
+.topic-link-text {
   margin: 0 auto;
   max-width: 800px;
   height: 350px;
