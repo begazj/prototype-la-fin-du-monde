@@ -54,6 +54,54 @@ footer {
   -webkit-mask-image: linear-gradient(black, rgba(0, 0, 0, 0.7));
   mask-image: linear-gradient(black, rgba(0, 0, 0, 0.7));
 }
+.collaspible {
+  max-width: 800px;
+  overflow: hidden;
+}
+.collaspible input {
+  display: none;
+}
+.collaspible label {
+  position: relative;
+  font-weight: 600;
+  display: block;
+  cursor: pointer;
+  z-index: 1;
+}
+.collaspible label:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 18px;
+  height: 18px;
+  background: url(https://www.reshot.com/preview-assets/icons/ZP2WDL9B8N/arrow-right-ZP2WDL9B8N.svg)
+    no-repeat 0 0;
+  transition: all 0.3s ease;
+}
+.collaspible input:checked + label:after {
+  transform: rotate(90deg);
+}
+.collaspible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.collaspible input:checked ~ .collaspible-text {
+  max-height: 750px;
+  padding-bottom: 25px;
+  opacity: 1;
+  top: 0;
+}
+.collaspible-text h4 {
+  text-align: center;
+}
+.collaspible-text p {
+  text-align: center;
+}
 .grid {
   display: grid;
 }
