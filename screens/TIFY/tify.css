@@ -18,6 +18,7 @@ https://tify.rocks/
 .tify-collection-reset {
   align-items: center;
   background: #f5f5f5 linear-gradient(to bottom, #fff7, #fff0);
+  margin: 20px;
   border-radius: var(--tify-border-radius, 2px);
   border: 0;
   box-shadow: 0 0 0 1px var(--tify-border-color, rgba(0, 0, 0, 0.2)) inset;
