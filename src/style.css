@@ -73,8 +73,6 @@ footer {
   top: 15px;
   width: 18px;
   height: 18px;
-  background: url(https://www.reshot.com/preview-assets/icons/ZP2WDL9B8N/arrow-right-ZP2WDL9B8N.svg)
-    no-repeat 0 0;
   transition: all 0.3s ease;
 }
 .collaspible input:checked + label:after {
@@ -103,9 +101,9 @@ footer {
 .grid {
   display: grid;
 }
-.grid-3-columns {
+.grid-4-columns {
   padding: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 60px;
   max-width: 1200px;
 }
@@ -155,10 +153,6 @@ footer {
 }
 .met-title {
   font-weight: bold;
-}
-.section-title {
-  margin: auto;
-  margin-left: 40px;
 }
 .btn {
   padding: 15px;

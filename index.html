@@ -58,49 +58,68 @@
       <section>
         <div>
           <p>
+            <a
+              class="btn"
+              data-bs-toggle="collapse"
+              href="#multiCollapseExample1"
+              role="button"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1"
+              >About the book</a
+            >
             <button
-              class="btn btn-primary"
+              class="btn"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseExample"
+              data-bs-target="#CollapseExample"
               aria-expanded="false"
-              aria-controls="collapseExample"
+              aria-controls="multiCollapseExample2"
             >
-              About the book
+              Paris Maquette
+            </button>
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1 multiCollapseExample2"
+            >
+              NY Maquette
+            </button>
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1 multiCollapseExample2"
+            >
+              Reading La Fin Du Monde
+            </button>
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1 multiCollapseExample2"
+            >
+              Credits
             </button>
           </p>
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              Two maquettes for La Fin du monde filmée par l’Ange N.-D are
-              known. The term “maquette” in the case of a livre d’artiste
-              (artist’s book) means a model for the book in part or whole, which
-              may incorporate trial printings. One of the maquettes is in the
-              collections of the Bibliothèque Nationale de France. It relates
-              only to a small part of the book and does not incorporate trial
-              printings. The other, which is much more complete and incorporates
-              trial printings, belongs to The Metropolitan Museum of Art, New
-              York; it is bound in with one of the exemplaires de tête (deluxe)
-              copies, which is digitally presented here with the New York
-              maquette.
-            </div>
-          </div>
         </div>
         <div class="section-title">
-          <div>
-            <div><button>About the Book</button></div>
-            <div><button>Paris Maquette</button></div>
-            <div>
-              <button><strong>NY Maquette</strong></button>
-            </div>
-            <div><button>Reading La Fin Du Monde</button></div>
-            <div><button>Credits</button></div>
-          </div>
           <div class="wrapper">
             <div class="collaspible">
               <input type="checkbox" id="collaspible-head" />
               <label for="collaspible-head">NY Maquette</label>
-              <div class="collaspible-text">
-                <div class="topic-link-text">
+              <div
+                class="collaspible-text"
+                class="collapse"
+                id="collapseExample"
+              >
+                <div class="topic-link-text card card-body">
                   <h3>The Maquettes</h3>
                   <p>
                     Two maquettes for La Fin du monde filmée par l’Ange N.-D are
@@ -432,7 +451,7 @@
           <div class="section-title additional-resources">
             <h2>Additional Resources</h2>
             <div>
-              <div class="grid grid-3-columns">
+              <div class="grid grid-4-columns">
                 <div>
                   <button class="btn">
                     Watson Library's Copy of La Fin Du Monde
