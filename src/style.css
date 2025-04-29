@@ -40,6 +40,9 @@ footer {
 .viewport {
   margin: 50px;
 }
+.section-title {
+  margin: 40px;
+}
 .topic-link {
   text-decoration: underline;
 }
