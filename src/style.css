@@ -37,6 +37,9 @@ footer {
   margin-left: 50px;
   padding-right: 100px;
 }
+.viewport {
+  margin: 30px;
+}
 .topic-link {
   text-decoration: underline;
 }
