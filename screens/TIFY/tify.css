@@ -378,7 +378,7 @@ https://tify.rocks/
     calc(var(--tify-grid-base, 24px) * 0.5);
   text-align: left;
   text-decoration: none;
-  width: 80%;
+  width: 100%;
 }
 
 .tify-collection-link.-has-children {
