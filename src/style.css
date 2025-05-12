@@ -70,15 +70,15 @@ footer {
 .hidden-text {
   text-align: center;
 }
-.collaspible {
+.collapsible {
   max-width: 800px;
   overflow: hidden;
-  text-align: center;
+  margin: 0 auto;
 }
-.collaspible input {
+.collapsible input {
   display: none;
 }
-.collaspible label {
+.collapsible label {
   position: relative;
   font-weight: 600;
   display: block;
@@ -86,7 +86,7 @@ footer {
   cursor: pointer;
   z-index: 1;
 }
-.collaspible label:after {
+.collapsible label:after {
   content: "";
   position: absolute;
   right: 15px;
@@ -95,10 +95,10 @@ footer {
   height: 18px;
   transition: all 0.3s ease;
 }
-.collaspible input:checked + label:after {
+.collapsible input:checked + label:after {
   transform: rotate(90deg);
 }
-.collaspible-text {
+.collapsible-text {
   max-height: 1px;
   overflow: hidden;
   border-radius: 4px;
@@ -106,16 +106,16 @@ footer {
   opacity: 0.5;
   transition: all 0.3s ease;
 }
-.collaspible input:checked ~ .collaspible-text {
+.collapsible input:checked ~ .collapsible-text {
   max-height: 750px;
   padding-bottom: 25px;
   opacity: 1;
   top: 0;
 }
-.collaspible-text h3 {
+.collapsible-text h3 {
   text-align: center;
 }
-.collaspible-text p {
+.collapsible-text p {
   text-align: center;
 }
 .grid {
