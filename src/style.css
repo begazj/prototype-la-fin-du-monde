@@ -37,8 +37,21 @@ footer {
   margin-left: 50px;
   padding-right: 100px;
 }
+.intro-line-text {
+  margin-right: 300px;
+}
 .viewport {
   margin: 50px;
+}
+.collapse-buttons {
+  text-align: center;
+}
+.btns {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #222222;
+  margin: 20px;
 }
 .section-title {
   margin: 40px;
@@ -53,6 +66,9 @@ footer {
   overflow-y: auto;
   -webkit-mask-image: linear-gradient(black, rgba(0, 0, 0, 0.7));
   mask-image: linear-gradient(black, rgba(0, 0, 0, 0.7));
+}
+.hidden-text {
+  text-align: center;
 }
 .collaspible {
   max-width: 800px;
@@ -157,10 +173,4 @@ footer {
 }
 .met-title {
   font-weight: bold;
-}
-.btn {
-  padding: 15px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #222222;
 }
