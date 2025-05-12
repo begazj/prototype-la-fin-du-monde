@@ -47,9 +47,6 @@ footer {
   text-decoration: underline;
 }
 .topic-link-text {
-  text-align: center;
-}
-.topic-link-text {
   margin: 0 auto;
   max-width: 800px;
   height: 500px;
@@ -60,6 +57,7 @@ footer {
 .collaspible {
   max-width: 800px;
   overflow: hidden;
+  text-align: center;
 }
 .collaspible input {
   display: none;
