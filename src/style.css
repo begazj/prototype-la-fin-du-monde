@@ -52,6 +52,12 @@ footer {
   border-radius: 8px;
   border: 1px solid #222222;
   margin: 20px;
+  transition: all 200ms ease-in-out;
+}
+.btns:hover {
+  background-color: #222222;
+  color: #ffffff;
+  cursor: pointer;
 }
 .section-title {
   margin: 40px;
