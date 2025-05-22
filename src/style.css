@@ -46,6 +46,15 @@ footer {
 .collapse-buttons {
   text-align: center;
 }
+.dropdown-btn {
+  padding: 15px;
+  margin: 20px;
+  color: #222222;
+}
+.dropdown-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 .btns {
   padding: 15px;
   background-color: #ffffff;
