@@ -128,10 +128,10 @@ footer {
   top: 0;
 }
 .collapsible-text h3 {
-  text-align: right;
+  text-align: left;
 }
 .collapsible-text p {
-  text-align: right;
+  text-align: left;
 }
 .grid {
   display: grid;
