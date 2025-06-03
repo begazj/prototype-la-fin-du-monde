@@ -85,6 +85,10 @@ footer {
 .hidden-text {
   text-align: center;
 }
+.chapter-numbers {
+  text-align: center;
+  font-weight: bold;
+}
 .collapsible {
   max-width: 900px;
   overflow: hidden;
