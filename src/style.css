@@ -32,6 +32,9 @@ footer {
   padding-bottom: 30px;
   font-size: 12px;
 }
+.project-container {
+  margin-right: 50px;
+}
 .project-explanation {
   margin-left: 50px;
   padding-right: 100px;
@@ -40,7 +43,7 @@ footer {
   margin-right: 500px;
 }
 .viewport {
-  margin: 50px;
+  margin: 60px;
 }
 .collapse-buttons {
   text-align: center;
@@ -89,7 +92,7 @@ footer {
   font-weight: bold;
 }
 .collapsible {
-  max-width: 900px;
+  max-width: 1200px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -136,6 +139,9 @@ footer {
 .collapsible-text p {
   text-align: left;
 }
+.box-btn:hover {
+  cursor: pointer;
+}
 .grid {
   display: grid;
 }
@@ -144,6 +150,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 60px;
   max-width: 1200px;
+  cursor: pointer;
 }
 .grid-5-columns {
   padding: 10px;
