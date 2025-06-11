@@ -43,7 +43,8 @@ footer {
   margin-right: 500px;
 }
 .viewport {
-  margin: 60px;
+  margin-left: 50px;
+  margin-right: 60px;
 }
 .collapse-buttons {
   text-align: center;
